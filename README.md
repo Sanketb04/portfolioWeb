@@ -212,7 +212,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Sanket Bhagat**
 
 - Email: Sanketbhagat1710@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/contactsanketbhagat/)
+- LinkedIn: [ LinkedIn Profile](https://www.linkedin.com/in/contactsanketbhagat/)
 - GitHub: [@Sanket](https://github.com/Sanketb04)
 
 ## 🙏 Acknowledgments
