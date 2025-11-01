@@ -2,7 +2,8 @@
 
 A modern, responsive portfolio website built with React and Tailwind CSS, showcasing my skills, projects, and professional experience as an AWS Data Engineer and Python Backend Developer.
 
-<img width="1881" height="864" alt="Screenshot 2025-11-01 113350" src="https://github.com/user-attachments/assets/af7ae5e1-b278-4813-b114-59a3b6b78f8c" />
+<img width="1881" height="864" alt="Screenshot 2025-11-01 113350" src="https://github.com/user-attachments/assets/943b0b17-32ec-4bc0-aba8-6cf65f814480" />
+
 
 ## ✨ Features
 
