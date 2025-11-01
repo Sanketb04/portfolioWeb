@@ -112,7 +112,7 @@ const HeroSection = () => {
               </h1>
               <h2 className="text-3xl sm:text-4xl font-bold">
                 <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-                  AWS Data Engineer &
+                  Data Engineer &
                 </span>
               </h2>
               <h2 className="text-3xl sm:text-4xl font-bold">
@@ -190,9 +190,6 @@ const HeroSection = () => {
                 </span>
               </div>
 
-              <div className="absolute -bottom-4 -left-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-2xl shadow-2xl shadow-purple-500/50">
-                <span className="font-bold">AWS Certified</span>
-              </div>
             </div>
           </div>
         </div>
