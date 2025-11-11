@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Linkedin, Github, ExternalLink, Download, Menu, X, Code, Database, Cloud, Server, ChevronRight, Briefcase, GraduationCap, Award, Zap } from 'lucide-react';
+import { Mail, Linkedin, Github, ExternalLink, Download, Menu, X, Code, Database, Cloud, Server, ChevronRight, Briefcase, GraduationCap, Zap } from 'lucide-react';
 
 // Floating particles background component
 const ParticlesBackground = () => {
