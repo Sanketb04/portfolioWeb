@@ -123,7 +123,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
-              Architecting scalable data pipelines and cloud-native solutions. Transforming complex data into strategic business intelligence with cutting-edge AWS technologies.
+              Architecting scalable data pipelines and cloud-native solutions. Transforming complex data into strategic business intelligence with cutting-edge Azure and AWS technologies.
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
@@ -215,10 +215,10 @@ const SkillsSection = () => {
       skills: ["Python", "SQL", "PySpark", "JavaScript"]
     },
     {
-      title: "AWS Cloud Services",
+      title: "Azure and AWS Cloud Services",
       icon: <Cloud className="w-6 h-6" />,
       color: "from-blue-500 to-purple-500",
-      skills: ["S3", "Glue", "Lambda", "Redshift", "EC2", "RDS", "Athena", "Step Functions", "CloudWatch", "IAM"]
+      skills: [  "Azure Data Factory", "Azure Databricks", "Azure Data Lake Storage","S3", "Glue", "Lambda", "Redshift", "EC2"]
     },
     {
       title: "Frameworks & Tools",
@@ -291,20 +291,25 @@ const SkillsSection = () => {
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Stock Price Data Collection & Processing",
-      description: "Architected serverless ETL pipeline leveraging AWS Lambda, S3, and Glue for real-time stock market data processing. Implemented automated hourly collection with CloudWatch orchestration and RESTful API exposure.",
-      tech: ["AWS Lambda", "S3", "Glue", "API Gateway", "Python", "Pandas"],
-      gradient: "from-cyan-500 to-blue-500",
-      github: "#",
+     
+      title: "End-to-End Data Engineering Pipeline – NYC Taxi Data",
+      description: "Built an end-to-end Azure-based data pipeline for processing and analyzing NYC Taxi data. Designed a multi-layer (Bronze–Silver–Gold) architecture in Azure Data Lake Gen2, automated ingestion with Azure Data Factory, and performed scalable transformations with PySpark in Databricks. Implemented Delta Lake for incremental loading, schema enforcement, and data versioning. Integrated curated data into Power BI for analytics and visualization, improving data reliability and performance by 60%.",
+      tech: ["Azure Data Factory", "Azure Databricks", "Delta Lake", "Data Lake Gen2", "PySpark", "Power BI"],
+     gradient: "from-yellow-400 to-amber-600",
+       github: "#",
       live: "#"
+
     },
     {
-      title: "AI-Powered Data Engineering Pipeline",
-      description: "Engineered comprehensive automated pipeline integrating AWS ecosystem with SageMaker AutoML. Achieved 60% reduction in manual data preparation through intelligent Step Functions orchestration.",
-      tech: ["SageMaker", "Lambda", "S3", "Redshift", "Step Functions", "boto3"],
-      gradient: "from-blue-500 to-purple-500",
+    
+     title: "AI-Powered Data Engineering Pipeline (Azure)",
+      description: "Developed an end-to-end automated data engineering pipeline leveraging Azure ecosystem with Machine Learning integration. Utilized Azure Machine Learning for AutoML model training and Azure Data Factory for orchestration, achieving 60% reduction in manual data preparation and faster model deployment.",
+      tech: ["Azure Machine Learning", "Azure Data Factory", "Databricks", "Data Lake Gen2", "Synapse Analytics", "PySpark", "Python"],
+      gradient: "from-sky-500 to-indigo-500",
       github: "#",
-      live: "#"
+     live: "#"
+
+
     },
     {
       title: "Real-Time Tweet Stream Analytics",
@@ -314,14 +319,16 @@ const ProjectsSection = () => {
       github: "#",
       live: "#"
     },
+
     {
-      title: "NYC Taxi Data Analytics Platform",
-      description: "Constructed enterprise-grade pipeline processing massive NYC taxi datasets. Optimized real-time analytics using Databricks, delivering comprehensive fleet performance visualizations.",
-      tech: ["Databricks", "PySpark", "Python", "Visualization", "ETL"],
-      gradient: "from-pink-500 to-cyan-500",
+      title: "Stock Price Data Collection & Processing",
+      description: "Architected serverless ETL pipeline leveraging AWS Lambda, S3, and Glue for real-time stock market data processing. Implemented automated hourly collection with CloudWatch orchestration and RESTful API exposure.",
+      tech: ["AWS Lambda", "S3", "Glue", "API Gateway", "Python", "Pandas"],
+      gradient: "from-cyan-500 to-blue-500",
       github: "#",
       live: "#"
-    }
+    },
+   
   ];
 
   return (
@@ -403,18 +410,19 @@ const ProjectsSection = () => {
 const ExperienceSection = () => {
   const experiences = [
     {
-      role: "AWS Data Engineer / Python Developer",
-      company: "Tech Development IT Services",
-      location: "Pune",
-      period: "Oct 2024 – Present",
-      icon: <Briefcase className="w-5 h-5" />,
-      gradient: "from-cyan-500 to-blue-500",
-      description: [
-        "Architected and deployed sophisticated data pipelines using AWS Glue and Lambda for automated ETL operations",
-        "Engineered high-performance RESTful APIs with Flask and FastAPI for seamless backend integration",
-        "Orchestrated S3-based data lake architecture and optimized Redshift analytics infrastructure",
-        "Implemented comprehensive monitoring solutions with AWS CloudWatch for pipeline observability"
-      ]
+      role: "Azure Data Engineer / Python Developer",
+    company: "Tech Development IT Services",
+    location: "Pune",
+    period: "Oct 2024 – Present",
+    icon: <Briefcase className="w-5 h-5" />,
+    gradient: "from-sky-500 to-indigo-500",
+    description: [
+      "Designed and implemented scalable data pipelines using Azure Data Factory for automated ETL workflows",
+      "Developed PySpark-based transformations in Azure Databricks to clean, enrich, and model enterprise data",
+      "Managed multi-layer Data Lake architecture (Bronze–Silver–Gold) on Azure Data Lake Gen2 for structured analytics",
+      "Integrated Azure Synapse Analytics and Power BI for business reporting and performance optimization",
+      "Configured monitoring and alerting through Azure Monitor and Log Analytics to ensure pipeline reliability"
+    ]
     },
     {
       role: "ETL Developer Intern",
