@@ -112,14 +112,10 @@ const HeroSection = () => {
               </h1>
               <h2 className="text-3xl sm:text-4xl font-bold">
                 <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-                  Data Engineer &
+                  Data Engineer 
                 </span>
               </h2>
-              <h2 className="text-3xl sm:text-4xl font-bold">
-                <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-400 bg-clip-text text-transparent">
-                  Python Backend Developer
-                </span>
-              </h2>
+              
             </div>
 
             <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
@@ -151,7 +147,7 @@ const HeroSection = () => {
               {[
                 { value: '2+', label: 'Years Experience' },
                 { value: '10+', label: 'Projects Built' },
-                { value: '5+', label: 'AWS Services' }
+                { value: '5+', label: 'Azure & AWS Services' }
               ].map((stat, i) => (
                 <div key={i} className="text-center lg:text-left">
                   <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
@@ -224,7 +220,7 @@ const SkillsSection = () => {
       title: "Frameworks & Tools",
       icon: <Server className="w-6 h-6" />,
       color: "from-purple-500 to-pink-500",
-      skills: ["Flask", "FastAPI", "Apache Spark", "Airflow", "Docker", "Git", "CI/CD"]
+      skills: ["Azure DevOps", " Kafka", "Apache Spark", "Airflow", "Docker", "Git", "CI/CD"]
     },
     {
       title: "Databases",
@@ -411,31 +407,31 @@ const ExperienceSection = () => {
   const experiences = [
     {
       role: "Azure Data Engineer / Python Developer",
-    company: "Tech Development IT Services",
+    company: "TEXTCODE TECHNOLOGIES",
     location: "Pune",
-    period: "Oct 2024 – Present",
+    period: "Sept 2024 – Present",
     icon: <Briefcase className="w-5 h-5" />,
     gradient: "from-sky-500 to-indigo-500",
     description: [
-      "Designed and implemented scalable data pipelines using Azure Data Factory for automated ETL workflows",
-      "Developed PySpark-based transformations in Azure Databricks to clean, enrich, and model enterprise data",
-      "Managed multi-layer Data Lake architecture (Bronze–Silver–Gold) on Azure Data Lake Gen2 for structured analytics",
-      "Integrated Azure Synapse Analytics and Power BI for business reporting and performance optimization",
-      "Configured monitoring and alerting through Azure Monitor and Log Analytics to ensure pipeline reliability"
+      "Designed and implemented automated Azure Data Factory pipelines for large-scale data ingestion and orchestration",
+      "Leveraged PySpark transformations in Azure Databricks to clean, enrich, and codify multi-source datasets",
+      "Managed Azure Data Lake and Delta Lake partitioning to cut storage costs by 50% and double query speeds",
+      "Built SQL-based models in Azure Synapse Analytics integrated with Power BI for real-time dashboards",
+      "Established a comprehensive 24/7 data anomaly alerting framework using Azure Monitor, Log Analytics, and Logic Apps"
     ]
     },
     {
       role: "ETL Developer Intern",
-      company: "Rubix AI Solutions",
+      company: "RUBIX AI SOLUTIONS",
       location: "Pune",
       period: "Jan 2024 – Aug 2024",
       icon: <Code className="w-5 h-5" />,
       gradient: "from-purple-500 to-pink-500",
       description: [
-        "Developed and optimized enterprise ETL pipelines leveraging Azure Data Factory and Databricks",
-        "Implemented Delta Lake architecture for efficient incremental data loading patterns",
-        "Engineered AWS S3 and Glue workflows for scalable data transformation",
-        "Created advanced SQL aggregation logic powering interactive Power BI dashboards"
+        "Developed and optimized ETL pipelines using Azure Data Factory and Databricks",
+        "Implemented Delta Lake for efficient incremental data loading",
+        "Built SQL-based data aggregation logic for Power BI dashboards",
+        "Collaborated with cross-functional teams to ensure data quality and scalability."
       ]
     }
   ];
@@ -648,20 +644,20 @@ const ContactSection = () => {
                 
                 <div className="space-y-6">
                   <div className="p-4 bg-slate-900/50 rounded-xl">
-                    <p className="text-lg font-bold text-cyan-400 mb-1">Master of Computer Science</p>
+                    <p className="text-lg font-bold text-cyan-400 mb-1">Bachelor of Computer Science</p>
                     <p className="text-white font-medium">University of Pune</p>
-                    <p className="text-gray-400 text-sm">2024 - 2026</p>
+                    <p className="text-gray-400 text-sm">2021 - 2024</p>
                     <div className="mt-2 inline-block px-3 py-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg">
-                      <p className="text-white text-sm font-semibold">CGPA: 8.90</p>
+                      <p className="text-white text-sm font-semibold">CGPA: 8.36</p>
                     </div>
                   </div>
                   
                   <div className="p-4 bg-slate-900/50 rounded-xl">
-                    <p className="text-lg font-bold text-purple-400 mb-1">Bachelor of Computer Science</p>
-                    <p className="text-white font-medium">University of Pune</p>
-                    <p className="text-gray-400 text-sm">2021 - 2024</p>
+                    <p className="text-lg font-bold text-purple-400 mb-1">Higher Secondary Education</p>
+                    <p className="text-white font-medium">Yashwantrao Chavan Vidyalaya ,Phaltan</p>
+                    <p className="text-gray-400 text-sm">2020 - 2021</p>
                     <div className="mt-2 inline-block px-3 py-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg">
-                      <p className="text-white text-sm font-semibold">CGPA: 8.36</p>
+                      <p className="text-white text-sm font-semibold">PCT: 74% </p>
                     </div>
                   </div>
                 </div>
@@ -688,7 +684,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <p className="text-gray-400 mb-2">
-              © 2025 Sanket Bhagat. Crafted with passion.
+              © 2026 Sanket Bhagat. Crafted with passion.
             </p>
             <p className="text-sm text-gray-500">
               Built with React & Tailwind CSS
